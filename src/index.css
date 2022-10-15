@@ -1,0 +1,59 @@
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main-frame {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-screen {
+    background-color: white;
+    border-radius: 16px;
+    width: 400px;
+  }  
+
+  .button-com {
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    color: black;
+    background-color: rgba(53, 53, 53, 0.69);
+    display: flex;
+    font-size: 25px;
+    flex: 1;
+    border-radius: 25px;
+    margin: 4px;
+    border: 0.5px solid;
+
+}
+.button-com:hover {
+  background-color: rgba(39, 39, 39, 0.69);
+}
+
+  .buttons {
+    display: flex;
+  }
+  
+ .main-screen {
+  height: 10em;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  flex-direction: column;
+  margin-right: 15px;
+  padding: 8px;
+} 
+
+.input {
+  flex: 1;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.result {
+  flex: 1;
+  font-size: 25px;
+}
